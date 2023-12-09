@@ -8,7 +8,6 @@ import Card from 'react-bootstrap/Card';
 
 
 
-
 function NewsApp() {
     const [news, setNews] = useState([])
     // const [pagination,setPagination] = useState({start:0,end:4})
