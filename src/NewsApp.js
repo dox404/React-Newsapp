@@ -11,6 +11,7 @@ import Card from 'react-bootstrap/Card';
 
 function NewsApp() {
     const [news, setNews] = useState([])
+    // const [pagination,setPagination] = useState({start:0,end:4})
     const getnews = () => {
         // console.log('https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=7be89bf099a7469d946290f8beba9091')
 
